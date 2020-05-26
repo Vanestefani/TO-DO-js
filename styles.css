@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.flow-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.title, .controls, .button {
+  flex: none;
+}
+
+button {
+  padding: 10px 20px;
+  width: 100px;
+  background: #7474bf;
+  color: #eee;
+  font-family: 'Chelsea Market', cursive;
+border-radius:10px;
+box-shadow: #333 5px 5px 5px;
+border:none;
+cursor: s;
+}
+button:hover{
+  background: #348ac7;
+}
+
+.todo-list {
+  flex: 1 1 0;
+  margin-top: 20px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.todo-delete {
+  margin: 10px;
+}
+
+.todo-checkbox {
+  margin: 10px;
+}
+
+.todo-container {
+  padding: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.todo-container:first-of-type {
+  border-top: 1px solid #333;
+}
+li div p{
+  display: inline;
+  margin: 2pxs;
+}
+li div button {
+  width: 20px;
+  padding: 0 ;
+  margin: 10px ;
+
+  background-color: red;
+}
+
+header{
+  margin: 0;
+  padding: 30px;
+  color: #eee;
+  justify-items: auto;
+  font-family: 'Chelsea Market', cursive;
+  background: #7474bf; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7474bf, #348ac7); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7474bf, #348ac7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+span{
+  font-family: 'Chelsea Market', cursive;
+}
